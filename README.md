@@ -16,3 +16,4 @@
 - initialize properties of the Team: name, wins and losses, ties, goals scored and allowed
 - getters and setters
 - print team stats
+
