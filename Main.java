@@ -4,21 +4,6 @@ import java.util.Random;
 public class Main {
     static void main(String[] args) {
 
-        String[][] names = new String[3][2];
-        names[0][1] = "First name";
-        names[0][0] = "Last name";
-        names[2][0] = "Man";
-        names[1][1] = "Peter";
-        names[1][0] = "Parker";
-        names[2][1] = "Spider";
-
-        boolean[] bools = new boolean[5];
-        for (int i = 0; i < bools.length; i++) {
-            if (i % 2 == 0) {
-                bools[i] = true;
-            }
-        }
-
         Team t1 = new Team("Team 1");
         Team t2 = new Team("Team 2");
         Team t3 = new Team("Team 3");
